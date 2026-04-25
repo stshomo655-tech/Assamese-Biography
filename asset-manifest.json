@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Assamese-Biogra/static/css/main.ed97b335.css",
+    "main.js": "/Assamese-Biogra/static/js/main.df4ebaa8.js",
+    "static/js/239.94aca4a1.chunk.js": "/Assamese-Biogra/static/js/239.94aca4a1.chunk.js",
+    "static/js/977.03479ac8.chunk.js": "/Assamese-Biogra/static/js/977.03479ac8.chunk.js",
+    "static/js/455.2683522c.chunk.js": "/Assamese-Biogra/static/js/455.2683522c.chunk.js",
+    "static/js/453.605773d9.chunk.js": "/Assamese-Biogra/static/js/453.605773d9.chunk.js",
+    "index.html": "/Assamese-Biogra/index.html",
+    "main.ed97b335.css.map": "/Assamese-Biogra/static/css/main.ed97b335.css.map",
+    "main.df4ebaa8.js.map": "/Assamese-Biogra/static/js/main.df4ebaa8.js.map",
+    "239.94aca4a1.chunk.js.map": "/Assamese-Biogra/static/js/239.94aca4a1.chunk.js.map",
+    "977.03479ac8.chunk.js.map": "/Assamese-Biogra/static/js/977.03479ac8.chunk.js.map",
+    "455.2683522c.chunk.js.map": "/Assamese-Biogra/static/js/455.2683522c.chunk.js.map",
+    "453.605773d9.chunk.js.map": "/Assamese-Biogra/static/js/453.605773d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed97b335.css",
+    "static/js/main.df4ebaa8.js"
+  ]
+}
