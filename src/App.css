@@ -1,10 +1,22 @@
+/* Base App Container — Glassmorphic */
 .App {
   text-align: center;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 900px;
 }
 
+/* Logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +25,11 @@
   }
 }
 
+/* Header — Glassmorphic */
 .App-header {
-  background-color: #282c34;
+  background: rgba(40, 44, 52, 0.35);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,32 +37,42 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.25);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.25);
 }
 
 .App-link {
   color: #61dafb;
 }
 
+/* Logo spin animation */
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
+
+/* Assamese font */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Assamese&display=swap');
 
 .font-assamese {
   font-family: 'Noto Sans Assamese', sans-serif;
 }
 
+/* Gradient Background */
 .bg-assamese {
-  background: linear-gradient(to bottom right, #fff1e0, #ffe0b2, #ffd580);
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 241, 224, 0.4),
+    rgba(255, 224, 178, 0.4),
+    rgba(255, 213, 128, 0.4)
+  );
   background-repeat: no-repeat;
   background-size: cover;
+  backdrop-filter: blur(10px);
 }
 
+/* Slow spin animations */
 .animate-spin-slow {
   animation: spin 60s linear infinite;
 }
